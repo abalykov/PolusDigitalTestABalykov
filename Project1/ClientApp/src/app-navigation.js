@@ -17,5 +17,17 @@
                 path: '/products',
             }
         ]
-    }
+    }, 
+    {
+        text: 'Отчеты',
+        icon: 'folder',
+        items: [
+            {
+                text: 'Отчет за период',
+                path: '/report',
+                icon: 'folder'
+            }
+        ]
+    }, 
+  
 ];

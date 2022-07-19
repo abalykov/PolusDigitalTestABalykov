@@ -17,5 +17,7 @@ namespace BuyersProductsApp.Data
         Task<int> SaveChangesAsync(CancellationToken cancelationToken = default);
 
         EntityEntry<T> Entry<T>(T item) where T : class;
+
+        DbSet<T> Set<T>() where T : class;
     }
 }

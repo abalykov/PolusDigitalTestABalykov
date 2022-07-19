@@ -1,4 +1,4 @@
-import { HomePage, TasksPage, ProfilePage, BuyersPage, ProductsPage, BuyerPage } from './pages';
+import { HomePage, TasksPage, ProfilePage, BuyersPage, ProductsPage, BuyerPage, ReportPage } from './pages';
 import { withNavigationWatcher } from './contexts/navigation';
 
 const routes = [
@@ -29,7 +29,11 @@ const routes = [
     {
         path: '/products',
         element: ProductsPage
-    }
+    }, 
+  {
+    path: '/report',
+    element: ReportPage
+  }
 ];
 
 export default routes.map(route => {
